@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=pkexec env DISPLAY=:1 XAUTHORITY=/run/user/1000/gdm/Xauthority /bin/LOGIN
+Terminal=false
+Name=Konfiguracja Laboratorium
+Categories=Education;Network;RemoteAccess;
+Keywords=classroom,control,oedu,vpn,lab,room,teacher,student
