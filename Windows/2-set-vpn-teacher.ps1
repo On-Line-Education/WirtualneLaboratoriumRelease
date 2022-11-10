@@ -5,7 +5,7 @@ param(
 [Parameter (Mandatory = $true)] [String]$Server
 )
 
-$Srv=$SRV=${Server}.Split(":")[0].Trim()
+$Srv=${Server}.Split(":")[0].Trim()
 
 $head = @{"Authorization"="${Token}"}
 
